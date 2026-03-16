@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <!-- Crossed Pistons -->
+  <!-- Left piston (top-left to bottom-right) -->
+  <g stroke="#000" stroke-width="4" fill="#fff">
+    <!-- Top-left piston head -->
+    <rect x="45" y="55" width="65" height="50" rx="6" transform="rotate(-45 77.5 80)" fill="#fff" stroke="#000" stroke-width="5"/>
+    <ellipse cx="77.5" cy="60" rx="18" ry="18" transform="rotate(-45 77.5 60)" fill="#fff" stroke="#000" stroke-width="4"/>
+    <!-- Piston rod -->
+    <line x1="105" y1="105" x2="395" y2="395" stroke="#000" stroke-width="18" stroke-linecap="round"/>
+    <line x1="105" y1="105" x2="395" y2="395" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+    <!-- Bottom-right piston head -->
+    <rect x="390" y="395" width="65" height="50" rx="6" transform="rotate(-45 422.5 420)" fill="#fff" stroke="#000" stroke-width="5"/>
+    <ellipse cx="422.5" cy="440" rx="18" ry="18" transform="rotate(-45 422.5 440)" fill="#fff" stroke="#000" stroke-width="4"/>
+  </g>
+  <!-- Right piston (top-right to bottom-left) -->
+  <g stroke="#000" stroke-width="4" fill="#fff">
+    <!-- Top-right piston head -->
+    <rect x="390" y="55" width="65" height="50" rx="6" transform="rotate(45 422.5 80)" fill="#fff" stroke="#000" stroke-width="5"/>
+    <ellipse cx="422.5" cy="60" rx="18" ry="18" transform="rotate(45 422.5 60)" fill="#fff" stroke="#000" stroke-width="4"/>
+    <!-- Piston rod -->
+    <line x1="395" y1="105" x2="105" y2="395" stroke="#000" stroke-width="18" stroke-linecap="round"/>
+    <line x1="395" y1="105" x2="105" y2="395" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+    <!-- Bottom-left piston head -->
+    <rect x="45" y="395" width="65" height="50" rx="6" transform="rotate(45 77.5 420)" fill="#fff" stroke="#000" stroke-width="5"/>
+    <ellipse cx="77.5" cy="440" rx="18" ry="18" transform="rotate(45 77.5 440)" fill="#fff" stroke="#000" stroke-width="4"/>
+  </g>
+  <!-- Shield shape -->
+  <path d="M250 90 L370 130 L370 280 C370 340 315 390 250 410 C185 390 130 340 130 280 L130 130 Z" fill="#fff" stroke="#000" stroke-width="8"/>
+  <!-- ROUTE text -->
+  <text x="250" y="195" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="52" font-weight="900" fill="#000" letter-spacing="4">ROUTE</text>
+  <!-- Gear/cog circle -->
+  <circle cx="250" cy="280" r="55" fill="#000"/>
+  <!-- Gear teeth -->
+  <g fill="#000">
+    <rect x="243" y="218" width="14" height="16" rx="2"/>
+    <rect x="243" y="336" width="14" height="16" rx="2"/>
+    <rect x="188" y="273" width="16" height="14" rx="2"/>
+    <rect x="296" y="273" width="16" height="14" rx="2"/>
+    <rect x="199" y="233" width="14" height="14" rx="2" transform="rotate(-45 206 240)"/>
+    <rect x="287" y="233" width="14" height="14" rx="2" transform="rotate(45 294 240)"/>
+    <rect x="199" y="313" width="14" height="14" rx="2" transform="rotate(45 206 320)"/>
+    <rect x="287" y="313" width="14" height="14" rx="2" transform="rotate(-45 294 320)"/>
+  </g>
+  <!-- Inner gear circle (white) for number background -->
+  <circle cx="250" cy="280" r="40" fill="#000"/>
+  <!-- 69 number -->
+  <text x="250" y="300" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="56" font-weight="900" fill="#fff">69</text>
+  <!-- AUTO text -->
+  <text x="250" y="365" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="36" font-weight="900" fill="#000" letter-spacing="6">AUTO</text>
+</svg>
